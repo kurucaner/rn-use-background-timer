@@ -1,3 +1,4 @@
+import React from "react";
 import { useBackgroundTimer } from "rn-use-background-timer";
 
 export const App = () => {
