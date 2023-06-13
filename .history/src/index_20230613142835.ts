@@ -3,6 +3,10 @@ import { AppState, AppStateStatus } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { differenceInSeconds } from "./utils/helpers";
 
+interface Error {
+  cause?: unknown;
+}
+
 interface IProps {
   keepPreviousTime?: boolean;
   onError?: (error: any) => void;

@@ -1,6 +1,6 @@
 {
   "name": "rn-use-background-timer",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A custom React Native Hook that calculates the time an app spends in the inactive or background state. Ideal for handling operations when the app's state changes.",
   "main": "./src/index.ts",
   "scripts": {
@@ -25,7 +25,6 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.18.2",
     "react": "^18.2.0",
-    "react-native": "^0.71.10",
-    "rn-use-background-timer": "^1.0.0"
+    "react-native": "^0.71.10"
   }
 }
