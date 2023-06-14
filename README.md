@@ -23,13 +23,13 @@
 <p>This hook relies on <code><strong>react</strong></code>, <code><strong>react-native</strong></code>, and <code><strong>@react-native-async-storage/async-storage</strong></code>. Make sure these dependencies are installed in your project.</p>
 
 ```bash
-npm install react react-native @react-native-async-storage/async-storage
+npm install @react-native-async-storage/async-storage
 ```
 
 or
 
 ```bash
-yarn add react react-native @react-native-async-storage/async-storage
+yarn add @react-native-async-storage/async-storage
 ```
 
 then
