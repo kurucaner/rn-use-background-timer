@@ -4,6 +4,7 @@
   "description": "A custom React Native Hook that calculates the time an app spends in the inactive or background state. Ideal for handling operations when the app's state changes.",
   "main": "./src/index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +28,8 @@
     "react": "^18.2.0",
     "react-native": "^0.71.10",
     "rn-use-background-timer": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
   }
 }

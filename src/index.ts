@@ -38,7 +38,7 @@ export const useBackgroundTimer = ({
         appState.current === "active" &&
         nextAppState.match(/inactive|background/)
       ) {
-        onBackground?.();
+        onBackground && onBackground();
 
         await AsyncStorage.setItem("@start_time", new Date().toISOString());
       } else if (
